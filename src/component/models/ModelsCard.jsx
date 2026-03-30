@@ -2,7 +2,10 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const ModelsCard = ({ data }) => {
   return (
-    <div className="card-body bg-base-300 shadow-lg" key={data.id}>
+    <div
+      className="card-body bg-base-300 shadow-lg transform transition duration-300 hover:scale-105"
+      key={data.id}
+    >
       <span
         className={`badge badge-xs ${data.tagType === "Popular" ? "badge-warning" : "badge-success"} `}
       >

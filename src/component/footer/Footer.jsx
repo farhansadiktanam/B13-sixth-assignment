@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <div className="footer sm:footer-horizontal bg-[#101727] text-white p-20 mt-20">
+      <div className="footer sm:footer-horizontal bg-[#101727] text-white p-20">
         <aside className="space-y-3">
           <div className="flex gap-3 items-center">
             <a href="#" className="text-3xl font-bold">

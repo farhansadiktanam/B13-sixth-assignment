@@ -7,6 +7,7 @@ import Models from "./component/models/Models";
 import { Suspense } from "react";
 import GetStarted from "./component/sections/GetStarted";
 import Pricing from "./component/sections/Pricing";
+import ReadyToTransform from "./component/sections/ReadyToTransform";
 
 const getData = async () => {
   const res = await fetch("/data.json");
@@ -42,6 +43,10 @@ function App() {
 
         <section>
           <Pricing />
+        </section>
+
+        <section className="mt-15">
+          <ReadyToTransform />
         </section>
       </main>
 

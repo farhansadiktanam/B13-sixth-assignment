@@ -5,7 +5,7 @@ import { FaCircle } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen container mx-auto w-281 mb-30">
+    <div className="hero bg-base-200 min-h-screen container mx-auto w-281 my-30">
       <div className="hero-content flex-col lg:flex-row-reverse ">
         <img src={heroImage} />
         <div className="space-y-2">
