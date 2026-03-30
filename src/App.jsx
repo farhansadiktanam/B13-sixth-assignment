@@ -3,9 +3,16 @@ import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
 import Banner from "./component/banner/Banner";
 import Stats from "./component/banner/Stats";
-import Models from "./component/Models";
+import Models from "./component/models/Models";
+import { Suspense } from "react";
+
+const getData = async () => {
+  const res = await fetch("/public/data.json");
+  return res.json();
+};
 
 function App() {
+  const dataPromise = getData();
   return (
     <>
       <header>
@@ -18,7 +25,13 @@ function App() {
 
       <main>
         <section>
-          <Models />
+          <Suspense
+            fallback={
+              <span className="loading loading-spinner loading-xl"></span>
+            }
+          >
+            <Models dataPromise={dataPromise} />
+          </Suspense>
         </section>
 
         <section></section>

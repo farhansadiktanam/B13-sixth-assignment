@@ -2,7 +2,7 @@ import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 const Navbar = () => {
   return (
-    <div className="container w-281 mx-auto p-3">
+    <div className="container max-w-281 mx-auto p-3">
       <div className="navbar shadow-sm">
         <div className="navbar-start">
           <a className=" text-3xl font-bold bg-linear-to-r from-[#4F39F6] via-white-400 to-[#9514FA] bg-clip-text text-transparent">
@@ -34,7 +34,7 @@ const Navbar = () => {
             Login
           </a>
           <button
-            class="px-6 py-2 text-white text-lg font-semibold rounded-full 
+            className="px-6 py-2 text-white text-lg font-semibold rounded-full 
               bg-linear-to-r from-[#4F39F6]  to-[#9514FA] shadow-lg cursor-pointer"
           >
             Get Started
