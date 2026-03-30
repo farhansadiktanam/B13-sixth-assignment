@@ -5,14 +5,15 @@ import Banner from "./component/banner/Banner";
 import Stats from "./component/banner/Stats";
 import Models from "./component/models/Models";
 import { Suspense } from "react";
+import GetStarted from "./component/sections/GetStarted";
 
 const getData = async () => {
   const res = await fetch("/public/data.json");
   return res.json();
 };
+const dataPromise = getData();
 
 function App() {
-  const dataPromise = getData();
   return (
     <>
       <header>
@@ -34,7 +35,9 @@ function App() {
           </Suspense>
         </section>
 
-        <section></section>
+        <section>
+          <GetStarted />
+        </section>
       </main>
 
       <footer>
