@@ -6,9 +6,10 @@ import Stats from "./component/banner/Stats";
 import Models from "./component/models/Models";
 import { Suspense } from "react";
 import GetStarted from "./component/sections/GetStarted";
+import Pricing from "./component/sections/Pricing";
 
 const getData = async () => {
-  const res = await fetch("/public/data.json");
+  const res = await fetch("/data.json");
   return res.json();
 };
 const dataPromise = getData();
@@ -37,6 +38,10 @@ function App() {
 
         <section>
           <GetStarted />
+        </section>
+
+        <section>
+          <Pricing />
         </section>
       </main>
 

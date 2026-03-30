@@ -13,7 +13,7 @@ const GetStarted = () => {
       </div>
 
       <div className="flex justify-between gap-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center p-4 rounded-md bg-base-300 shadow-lg">
           <div className="flex flex-col items-center text-center space-y-2">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
               <FaRegUser className="text-white text-3xl" />
@@ -27,7 +27,7 @@ const GetStarted = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center  p-4 rounded-md bg-base-300 shadow-lg">
           <div className="flex flex-col items-center text-center  space-y-2">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
               <FiBox className="text-white text-3xl" />
@@ -40,7 +40,7 @@ const GetStarted = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center  p-4 rounded-md bg-base-300 shadow-lg">
           <div className="flex flex-col items-center text-center  space-y-2">
             <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
               <BsRocketTakeoffFill className="text-white text-3xl" />
