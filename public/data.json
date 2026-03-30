@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Builder",
+    "description": "Create professional resumes with AI assistance.\nOptimized for ATS and modern hiring standards.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "name": "WriteGenius AI",
+    "description": "AI-powered writing tool for blogs and emails.\nGenerate high-quality content in seconds.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "SEO content generation",
+      "Multi-language support",
+      "Tone adjustment"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
+  },
+  {
+    "id": 3,
+    "name": "Designify Pro",
+    "description": "Create stunning visuals using AI tools.\nPerfect for social media and branding.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Drag & drop editor", "AI image generation", "Brand kits"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+  },
+  {
+    "id": 4,
+    "name": "CodeAssist AI",
+    "description": "Smart coding assistant for developers.\nWrite and debug code faster with AI.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Auto code completion",
+      "Bug detection",
+      "Supports 20+ languages"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+  },
+  {
+    "id": 5,
+    "name": "SpeakFluent AI",
+    "description": "Practice speaking with AI conversations.\nImprove fluency and confidence easily.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Real-time feedback",
+      "Voice interaction",
+      "Daily practice sessions"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/727/727245.png"
+  },
+  {
+    "id": 6,
+    "name": "VideoGen Studio",
+    "description": "Create videos from text using AI.\nNo camera or editing skills required.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI avatars", "Text-to-video", "HD export"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1179/1179069.png"
+  },
+  {
+    "id": 7,
+    "name": "MarketMind AI",
+    "description": "AI tool for marketing insights and analytics.\nBoost campaigns with smart data analysis.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Audience insights",
+      "Campaign tracking",
+      "Predictive analytics"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3063/3063822.png"
+  },
+  {
+    "id": 8,
+    "name": "NoteMaster AI",
+    "description": "Smart note-taking and summarization tool.\nTurn long texts into quick insights.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "favourite",
+    "tagType": "favourite",
+    "features": ["Auto summarization", "Cloud sync", "Highlight extraction"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
+  }
+]
