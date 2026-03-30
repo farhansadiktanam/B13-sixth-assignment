@@ -3,6 +3,7 @@ import Navbar from "./component/navbar/Navbar";
 import Footer from "./component/footer/Footer";
 import Banner from "./component/banner/Banner";
 import Stats from "./component/banner/Stats";
+import Models from "./component/Models";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       </header>
 
       <main>
-        <section></section>
+        <section>
+          <Models />
+        </section>
 
         <section></section>
       </main>

@@ -25,13 +25,13 @@ const Banner = () => {
           <div className="flex gap-3">
             <button
               className="px-6 py-2 text-white text-lg font-semibold rounded-full 
-              bg-linear-to-r from-[#4F39F6]  to-[#9514FA] "
+              bg-linear-to-r from-[#4F39F6]  to-[#9514FA] cursor-pointer "
             >
               Explore Products
             </button>
             <button
               className="flex items-center gap-1 px-6 py-2 rounded-full text-purple-600 font-semibold 
-                      border-2 border-purple-600 "
+                      border-2 border-purple-600 cursor-pointer"
             >
               <IoPlayOutline /> Watch Demo
             </button>
