@@ -19,7 +19,7 @@ const ModelsCard = ({ data, carts, setCarts }) => {
   };
   return (
     <div
-      className="card-body bg-base-300 shadow-lg transform transition duration-300 hover:scale-105"
+      className="card-body bg-base-300 rounded-lg shadow-lg transform transition duration-300 hover:scale-105"
       key={data.id}
     >
       <span
