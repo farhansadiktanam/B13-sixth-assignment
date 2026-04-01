@@ -5,52 +5,64 @@ import { BsRocketTakeoffFill } from "react-icons/bs";
 const GetStarted = () => {
   return (
     <div className="container max-w-281 mx-auto">
-      <div className="text-center space-y-3 p-15">
-        <h2 className="text-5xl font-bold">Get Started in 3 Steps</h2>
-        <p className="text-gray-500">
+      <div className="text-center space-y-3 px-4 py-12 md:py-16">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+          Get Started in 3 Steps
+        </h2>
+        <p className="text-gray-500 text-sm sm:text-base">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
 
-      <div className="flex justify-between gap-4">
-        <div className="flex justify-between items-center p-4 rounded-md bg-base-300 shadow-lg ">
-          <div className="flex flex-col items-center text-center space-y-2">
-            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto">
+        {/* Card 1 */}
+        <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <FaRegUser className="text-white text-3xl" />
             </div>
 
-            <h2 className="text-2xl font-semibold">Create Account</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold">
+              Create Account
+            </h2>
 
-            <p className="text-gray-500">
+            <p className="text-gray-500 text-sm">
               Sign up for free in seconds. No credit card required to get
               started.
             </p>
           </div>
         </div>
-        <div className="flex justify-between items-center  p-4 rounded-md bg-base-300 shadow-lg">
-          <div className="flex flex-col items-center text-center  space-y-2">
-            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
+
+        {/* Card 2 */}
+        <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <FiBox className="text-white text-3xl" />
             </div>
 
-            <h2 className="text-2xl font-semibold">Choose Products</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold">
+              Choose Products
+            </h2>
 
-            <p className="text-gray-500">
-              Browse our catalog and select the toolsthat fit your needs.
+            <p className="text-gray-500 text-sm">
+              Browse our catalog and select the tools that fit your needs.
             </p>
           </div>
         </div>
-        <div className="flex justify-between items-center  p-4 rounded-md bg-base-300 shadow-lg">
-          <div className="flex flex-col items-center text-center  space-y-2">
-            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] inline-block p-3 rounded-full">
+
+        {/* Card 3 */}
+        <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <BsRocketTakeoffFill className="text-white text-3xl" />
             </div>
 
-            <h2 className="text-2xl font-semibold">Start Creating</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold">
+              Start Creating
+            </h2>
 
-            <p className="text-gray-500">
-              Sign up for free in seconds. No credit card required to get
-              started.
+            <p className="text-gray-500 text-sm">
+              Start building and using tools instantly with no hassle.
             </p>
           </div>
         </div>
