@@ -18,7 +18,7 @@ const GetStarted = () => {
         {/* Card 1 */}
         <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
           <div className="flex flex-col items-center text-center space-y-3">
-            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
+            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <FaRegUser className="text-white text-3xl" />
             </div>
 
@@ -36,7 +36,7 @@ const GetStarted = () => {
         {/* Card 2 */}
         <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
           <div className="flex flex-col items-center text-center space-y-3">
-            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
+            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <FiBox className="text-white text-3xl" />
             </div>
 
@@ -53,7 +53,7 @@ const GetStarted = () => {
         {/* Card 3 */}
         <div className="p-6 rounded-xl bg-base-300 shadow-lg hover:shadow-xl transition">
           <div className="flex flex-col items-center text-center space-y-3">
-            <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
+            <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-3 rounded-full">
               <BsRocketTakeoffFill className="text-white text-3xl" />
             </div>
 
