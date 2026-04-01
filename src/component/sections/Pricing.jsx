@@ -4,9 +4,9 @@ const Pricing = () => {
   return (
     <div className="container max-w-290 mx-auto">
       <div className="text-center space-y-3 p-15">
-        <h2 className="text-5xl font-bold">Get Started in 3 Steps</h2>
+        <h2 className="text-5xl font-bold">Simple, Transparent Pricing</h2>
         <p className="text-gray-500">
-          Start using premium digital tools in minutes, not hours.
+          Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
 
@@ -250,7 +250,7 @@ const Pricing = () => {
               </li>
             </ul>
             <div className="mt-6">
-              <button className=" btn btn-outline btn-block rounded-full">
+              <button className=" btn btn-outline btn-block rounded-full font-bold">
                 Start Pro Trial
               </button>
             </div>

@@ -1,6 +1,22 @@
+import { useState } from "react";
 import { IoMdCheckmark } from "react-icons/io";
+import { toast } from "react-toastify";
+import { FaCheck } from "react-icons/fa6";
 
-const ModelsCard = ({ data }) => {
+const ModelsCard = ({ data, carts, setCarts }) => {
+  const [buyNow, setBuyNow] = useState(false);
+
+  const handleBuyNow = () => {
+    setBuyNow(true);
+    const isFound = carts.find((item) => item.id === data.id);
+    if (isFound) {
+      toast.error("Item already in cart");
+      return;
+    }
+
+    setCarts([...carts, data]);
+    toast.success("Item add to cart");
+  };
   return (
     <div
       className="card-body bg-base-300 shadow-lg transform transition duration-300 hover:scale-105"
@@ -31,10 +47,17 @@ const ModelsCard = ({ data }) => {
       </ul>
       <div className="mt-6">
         <button
-          className="px-6 py-2 text-white text-lg font-semibold rounded-full 
-              bg-linear-to-r from-[#4F39F6]  to-[#9514FA] shadow-lg cursor-pointer w-full"
+          onClick={handleBuyNow}
+          className={`px-6 py-2 text-white text-lg font-semibold rounded-full 
+             ${buyNow ? "bg-green-400" : "bg-linear-to-r from-[#4F39F6]  to-[#9514FA]"} shadow-lg cursor-pointer w-full`}
         >
-          Buy Now
+          {buyNow ? (
+            <p className="flex items-center gap-2  justify-center">
+              <FaCheck /> Add to cart
+            </p>
+          ) : (
+            "Buy Now"
+          )}
         </button>
       </div>
     </div>
